@@ -1,0 +1,38 @@
+h1{/*styles the title*/
+    color:#1E90FF;
+    text-align:center;
+    font-size:100px;
+}
+body{/*colors the background*/
+    background-color:#2F4F4F;
+}
+p{/*styles the body paragraph*/
+    color:black;
+    text-align:justify;
+    font-size:30px;
+}
+h4{/*Styles the subtitle*/
+    color:red;
+    text-align:center;
+    font-size:40px;
+}
+a:link {/*Styles all the lnks*/
+    text-decoration: none;
+    color:blue;
+    font-size: 40px;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color:red;
+}
+  
+  a:active {
+    text-decoration: underline;
+    color:yellow;
+  }

@@ -1,0 +1,60 @@
+body{/*colors the background*/
+    background-color: rgba(127, 255, 212, 0.575);
+}
+h1{/*styles the title*/
+    color: brown;
+    font-size:100px;
+    text-align: center;
+}
+a:link {/*Styles all the lnks*/
+    text-decoration: none;
+    color:blue;
+    font-size: 40px;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color:red;
+}
+  
+  a:active {
+    text-decoration: underline;
+    color:yellow;
+  }
+  p{/*styles the body paragraph*/
+    color:black;
+    text-align:justify;
+    font-size:30px;
+}
+h4{/*Styles the subtitle*/
+    color:red;
+    text-align:center;
+    font-size:40px;
+}
+img {/*Centers the image*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {/*Styles the button*/
+  background-color: rgb(130, 76, 175);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover{/*Adds effect when you hover above it*/
+  background-color: rgb(255, 0, 0);
+  color:white;
+}
+.button{width: 100%}/*Changes the size of the button*/
